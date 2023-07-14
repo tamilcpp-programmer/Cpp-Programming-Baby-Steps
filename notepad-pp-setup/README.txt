@@ -1,5 +1,11 @@
 Notepad++
 
+Install NppExec
+* Plugins -> Plugin Admin - Search for NppExec (Need to restart the Nodepad++)
+
+Create NppExec Scripts
+* Plugins -> NppExec
+
 --- Compile Script ---
 npp_console 1
 npp_save
