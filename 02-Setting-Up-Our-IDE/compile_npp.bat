@@ -42,7 +42,7 @@ GOTO END
 echo --- Compiling C++ Program ... ---
 set CPP_OPTIONS=-Wall -std=c++20
 echo Compiling : %CPP_BIN% %INCLUDE_DIR% %CPP_OPTIONS% %FILENAME_EXT% -o %FILENAME%.exe %LIB_DIR% %LIB_FLAGS%
-call %CPP_BIN% %INCLUDE_DIR% %CPP_OPTIONS% %FILENAME_EXT% -o %FILENAME%.exe %LIB_DIR% %LIB_FLAGS% & IF ERRORLEVEL 1 (echo. && echo ERROR: - Compilation Error - Please Fix !!! ) ELSE echo Compilation Successful !!!
+call %CPP_BIN% %INCLUDE_DIR% %CPP_OPTIONS% %FILENAME_EXT% -o %FILENAME%.exe %LIB_DIR% %LIB_FLAGS% & IF ERRORLEVEL 1 (echo. && echo ERROR: Compilation Error - Please Fix !!! ) ELSE echo Compilation Successful !!!
 
 GOTO END
 
