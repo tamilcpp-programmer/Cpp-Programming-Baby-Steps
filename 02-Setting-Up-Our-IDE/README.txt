@@ -26,4 +26,4 @@ Create NppExec Scripts
 
 Adding Shortcut
 ================
-Settings -> Shortcut Mapper -> Plugin-commands Tab -> Search for "compile" and "execute" -> replace the shortcut key
+Settings -> Shortcut Mapper -> Plugin-commands Tab -> Search for "compile" and "execute" -> replace the shortcut key of your choice.
