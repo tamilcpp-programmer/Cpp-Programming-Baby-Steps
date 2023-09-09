@@ -13,14 +13,20 @@ Create NppExec Scripts
         npp_console 1
         npp_save
         cd "$(CURRENT_DIRECTORY)"
+        // The below line is for windows terminal
         cmd /c wt.exe C:\<<<YOUR-PATH>>>\compile_npp.bat "$(FILE_NAME)"
+        // For cmder - uncomment the below line and comment the windows terminal cmd line
+        // cmd /c cmder.exe -- /cmd  "C:\<<<YOUR-PATH>>>\compile_npp.bat" "$(FILE_NAME)" 
 
 * Create "Execute" Script and save it
         --- Execute Script ---
         npp_console 1
         npp_save
         cd "$(CURRENT_DIRECTORY)"
+        // The below line is for windows terminal
         cmd /c wt.exe C:\<<<YOUR-PATH>>>\execute_npp.bat "$(FILE_NAME)"
+        // For cmder - uncomment the below line and comment the windows terminal cmd line
+        // cmd /c cmder.exe -- /cmd  "C:\<<<YOUR-PATH>>>\execute_npp.bat" "$(FILE_NAME)" 
 
 * Replace "<<<YOUR-PATH>>>" with the path to the compile_npp.bat & execute_npp.bat files
 
