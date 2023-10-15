@@ -3,8 +3,8 @@
 int main()
 {
     int a, b;
-    cin >> a >> b;
-    cout << "a = " << a << endl;
-    cout << "b = " << b << endl;
+    std::cin >> a >> b;
+    std::cout << "a = " << a << std::endl;
+    std::cout << "b = " << b << std::endl;
     return 0;
 }

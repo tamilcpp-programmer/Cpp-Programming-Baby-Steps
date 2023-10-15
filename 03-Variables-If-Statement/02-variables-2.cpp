@@ -7,7 +7,7 @@ int main()
     std::cout << "a = " << a << std::endl;
     std::cout << "b = " << b << std::endl;
     a = 42;
-    b = 181
+    b = 181;
     std::cout << "a = " << a << std::endl;
     std::cout << "b = " << b << std::endl;
     return 0;

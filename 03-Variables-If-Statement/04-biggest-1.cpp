@@ -3,19 +3,19 @@
 int main()
 {
     int a, b;
-    cout << "a = "
-    cin >> a;
-    cout << "b = "
-    cin >> b;
+    std::cout << "a = "
+    std::cin >> a;
+    std::cout << "b = "
+    std::cin >> b;
 
-    cout << "a = " << a << endl;
-    cout << "b = " << b << endl;
+    std::cout << "a = " << a << std::endl;
+    std::cout << "b = " << b << std::endl;
     
     if (a > b) {
-        cout << "Biggest Number : a = " << a << std::endl;
+        std::cout << "Biggest Number : a = " << a << std::endl;
     }
     if (b > a) {
-        cout << "Biggest Number : b = " << b << std::endl;
+        std::cout << "Biggest Number : b = " << b << std::endl;
     }
 
     return 0;
