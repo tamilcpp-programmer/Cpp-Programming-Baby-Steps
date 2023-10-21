@@ -7,14 +7,16 @@ int main()
     std::cin >> a;
     std::cout << "b = ";
     std::cin >> b;
-
-    std::cout << "a = " << a << std::endl;
-    std::cout << "b = " << b << std::endl;
     
     if (a > b) {
         std::cout << "Biggest Number : a = " << a << std::endl;
-    } else {
+    }
+    if (b > a) {
         std::cout << "Biggest Number : b = " << b << std::endl;
     }
+    if (a == b) {
+        std::cout << "a and b are same. value = " << a << std::endl;
+    }
+
     return 0;
 }
