@@ -4,7 +4,7 @@ int main()
 {
     int num;
     
-    std::cout << "Enter a: ";
+    std::cout << "Enter Num: ";
     std::cin >> num;
     
     if ((num % 2) == 0) {
