@@ -6,7 +6,7 @@ int main()
     
     std::cout << "Enter a: ";
     std::cin >> a;
-    std::cout << "Enter a: ";
+    std::cout << "Enter b: ";
     std::cin >> b;
     
     if (a > b) {
